@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="welcome">Feed Me</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="account">Don\'t have an account?</string>
+    <string name="signup">Sign up</string>
+    <string name="yourname">Your name</string>
+    <string name="youremail" />
+    <string name="yourPassword">Password</string>
+    <string name="youraddress" />
+    <string name="address">Address</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="throwRubbish">Save environment now</string>
+    <string name="yourpointTextView">Your Points: </string>
+    <string name="pointsNo">6666</string>
+    <string name="save_envir">Save Environment Now</string>
+    <string name="customerService">Help</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="redeem_his">Redeem History</string>
+    <string name="throw_record">Throw record</string>
+    <string name="profile_name">Jia Chen Ong</string>
+    <string name="feed_me">Feed Me</string>
+    <string name="redeem_btn">100point\n
+        <b>Redeem now</b></string>
+    <string name="about_us">About Us</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_redeem">Redeem</string>
+    <string name="logOut">Log out</string>
+
+    <string name="input_error_password_length">password should be atleast 6 characters long</string>
+    <string name="input_error_email_invalid">enter a valid email</string>
+    <string name="input_error_name_invalid">enter a valid username, username cannot more than 50 characters </string>
+
+    <string name="pref_file_name">com.example.FeedMe</string>
+    <string name="pref_name">com.example.pre.name</string>
+    <string name="pref_email">com.example.pre.email</string>
+    <string name="pref_address">com.example.pre.address</string>
+    <string name="pref_pic">com.example.pre.pic</string>
+    <string name="pref_point">com.example.pre.point</string>
+    <string name="saveBtn">Save</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="ConfirmChange">Confirmed Change</string>
+
+
+</resources>

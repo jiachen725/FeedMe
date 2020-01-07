@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:textSize="80px"
+        android:drawableStart="@drawable/ic_account_balance_wallet_black_24dp"
+        android:drawableLeft="@drawable/ic_account_balance_wallet_black_24dp"
+        android:drawablePadding="10dp"
+        android:text="Points 6666" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#94b8b8"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/panda"
+            android:layout_width="220dp"
+            android:layout_height="139dp"
+            android:gravity="center"
+            app:srcCompat="@drawable/foodpandaofftake" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="100 Points"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Redeem"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="12dp"
+            android:background="#486B00"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="#94b8b8">
+
+        <ImageView
+            android:id="@+id/pizza"
+            android:layout_width="223dp"
+            android:layout_height="130dp"
+            android:gravity="center"
+            app:srcCompat="@drawable/pizzavoucherrm10" />
+
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+
+            android:text="10 points"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Redeem"
+            android:background="#486B00"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="12dp"
+            android:textStyle="bold"
+
+            />
+
+    </TableRow>
+
+
+
+
+</LinearLayout>
